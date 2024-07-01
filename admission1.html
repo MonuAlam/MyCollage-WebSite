@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Page</title>
+    <link rel="icon" href="Image/logo_title.png" type="image/icon type">
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            /* background-color: #3498db; */
+            /* background-color:#03fc7b; */
+            background-color:#1eee74;
+            /* color: #fff; */
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            font-size: 20px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        textarea {
+            height: 150px;
+        }
+        input[type="submit"] {
+            background-color: #07fa3b;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #1eee74;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Admission Page</h1>
+    </header>
+    <div class="container">
+        <h2>Admission Form</h2>
+        <p>Welcome to our admission page. Please fill out the form below to apply for admission to our institution.</p>
+        <form>
+            <label for="name" >Name:</label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email"  required>
+            <br>
+            <label for="number">Contact No.:</label>
+            <input type="number" id="number"  required>
+            <br>
+            <label for="program">Program of Interest:</label>
+            <select id="program" >
+                <option></option>
+                <option >Bachelor of Technology</option>
+                <option >Bachelor of Computer Applications</option>
+                <option >Business Administration</option>
+                <option >Bachelor of Commerce</option>
+                <option >Bachelor of Science</option>
+                <option >Master of Science</option>
+                <option >Master of Business Administration</option>
+                <!-- Add more options here -->
+            </select>
+            <br>
+            <label for="message">Additional Information (optional):</label>
+            <textarea id="message"  rows="4"></textarea>
+            <br>
+            <input type="submit" value="Submit Application">
+        </form>
+    </div>
+</body>
+</html>

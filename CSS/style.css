@@ -1,0 +1,614 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body,
+html {
+    font-family: roboto, sans-serif, Arial, Helvetica, sans-serif;
+    background-color: #f0f3fa;
+    /* background-color:purple; */
+    width: 100%;
+
+
+}
+
+.main-container {
+    height: 200px;
+    width: 100%;
+}
+
+.width-100 {
+    width: 100%;
+    float: left;
+
+
+}
+
+.top-header {
+    /* background-color: #2196f3; */
+    background-color: #1eee74;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+
+
+
+
+
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 1000;
+
+
+
+}
+
+.container {
+
+    width: 1500px;
+    margin: 0px auto;
+}
+
+.news-list {
+    background-color: #fff;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+
+}
+
+.newsquote {
+    color: #fff;
+    /* width: 80%; */
+    font-size: 18px;
+}
+
+.newsquote-style {
+
+    color: black;
+    /* color: white; */
+    text-decoration: none;
+}
+
+.newsquote-style:hover {
+
+    color: #50f006;
+    /* color: #50f006; */
+
+}
+
+
+
+
+
+.header-menu {
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+    margin-top: 36px;
+
+
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 100;
+
+}
+
+.logo {
+    width: fit-content;
+    float: left;
+
+}
+
+.main-menu {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+
+}
+
+.nav-style:hover {
+    color: #50f006;
+
+}
+
+.main-menu a {
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    color: #3a3a3a;
+
+
+}
+
+.main-menu li {
+    float: left;
+    padding: 12px 15px;
+}
+
+.slider-width {
+    width: 100%;
+    height: auto;
+    margin-top: 134px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+
+}
+
+.width-33 {
+    width: 33%;
+    float: left;
+
+}
+
+.latest-news {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+    overflow: hidden;
+
+}
+
+.heading-section {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-top: 15px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #cfcfcf;
+    padding-top: 15px;
+    padding-left: 15px;
+    /* background: #00aed9; */
+    /* background: #03fc7b; */
+    background: #1eee74;
+
+    color: black;
+    /* color: white; */
+
+}
+
+.head-title {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+
+}
+
+.latest-news-ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+
+}
+
+.event-list {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+
+}
+
+.upcoming-event-list {
+    padding: 0px;
+    list-style: none;
+
+
+}
+
+.upcoming-event-list li {
+    width: 100px;
+    /* float:left; */
+    margin-bottom: 15px;
+    font-weight: 549;
+    font-size: 15px;
+}
+
+.event-date {
+    background-color: #1eee74;
+    width: 30px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    /* color: #fff; */
+    color: #7a0909;
+    padding: 8px;
+    margin-right: 10px;
+    padding-top: 10px;
+
+}
+
+.notice-board {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+
+
+}
+
+.notice-board-list {
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+
+}
+
+.notice-board-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+
+}
+
+.our-principal {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+
+}
+
+.useful-info-ul {
+    list-style: none;
+
+}
+
+.useful-info-ul li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 15px;
+
+
+}
+
+.useful-info-ul a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+.about-us {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+
+}
+
+.gov-sec-style {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 30px;
+
+}
+
+.width-40 {
+    width: 40%;
+    float: left;
+
+}
+
+.governor-img {
+    width: 100%;
+
+}
+
+.width-60 {
+    width: 60%;
+    float: left;
+
+}
+
+.governor-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+
+.governor-designation {
+    font-size: 16px;
+    color: black;
+    padding-left: 10px;
+    margin-top: 6px;
+
+}
+
+.certificate {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.gallery-head-style {
+    font-size: 28px;
+    /* color: #4b4848; */
+    /* background:white; */
+    background: #1eee74;
+    color: black;
+    /* color: white; */
+    margin-bottom: 5px;
+    padding: 2px 0px;
+
+}
+
+.width-25 {
+    width: 25%;
+    float: left;
+
+}
+
+.gallery-img {
+    height: 250px;
+    width: auto;
+
+}
+
+.recruiter-head-style {
+    font-size: 28px;
+    color: #4b4848;
+    margin-bottom: 5px;
+    background: #1eee74;
+    color: black;
+    /* color: white; */
+
+}
+
+.recruiter-marquee {
+    height: 100px;
+
+}
+
+.recruiter-marquee img {
+    height: 100px;
+
+}
+
+.footer {
+    background: #232f3e;
+    padding: 50px 0px;
+
+}
+
+.quicklink-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.quicklink-menu {
+    list-style: none;
+    padding-left: 10px;
+
+}
+
+.quicklink-menu li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+
+}
+
+.get-in-touch {
+    list-style: none;
+    padding-left: 10px;
+
+}
+
+.get-in-touch li {
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+
+}
+
+.get-in-touch li i {
+    color: #ed373c;
+    font-size: 20px;
+}
+
+.footer-e-mail {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.footer-whats-app {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.footer-website {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media {
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.social-media li {
+    float: left;
+    padding: 0px 8px;
+
+}
+
+.social-media li a img {
+    width: 30px;
+
+}
+
+.footer2-bacbor {
+    background: #232f3e;
+    padding: 10px 0px;
+    border-top: 1px solid#898989;
+
+}
+
+.footer2-content {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Base styles for responsive*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+    
+
+
+    .width-100 {
+        width: 100%;
+    }
+
+    .width-33 {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .width-25 {
+        width: 100%;
+    }
+
+    .footer {
+        background: #232f3e;
+        padding: 50px 0px;
+        text-align: center;
+    }
+
+
+
+}
+
+@media (max-width: 600px) {
+
+    
+
+
+    .slider-width {
+        margin-top: 412px;
+
+    }
+
+    .main-menu {
+        text-align: center;
+    }
+
+    .main-menu li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+
+    .header-menu {
+        text-align: center;
+    }
+
+    .nav-style {
+        padding: 5px 0;
+        display: inline-block;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .latest-news-ul {
+        padding: 0px;
+        list-style: none;
+        line-height: 40px;
+        margin-left: 0;
+
+    }
+
+    .upcoming-event-list li,
+    .notice-board-list li {
+        margin-bottom: 20px;
+    }
+
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fee Payment</title>
+    <link rel="icon" href="Image/logo_title.png" type="image/icon type">
+
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #1eee74;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            font-size: 20px;
+        }
+        input[type="text"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #1eee74;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #03aa48;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fee Payment</h1>
+    </header>
+    <div class="container">
+        <h2>Payment Information</h2>
+        <p>Please fill out the following information to make your fee payment:</p>
+        <form action="process_payment.php" method="post">
+            <label for="student_name">Student Name:</label>
+            <input type="text" id="student_name" name="student_name" required>
+            <br>
+            <label for="student_id">Student ID:</label>
+            <input type="text" id="student_id" name="student_id" required>
+            <br>
+            <label for="fee_amount">Fee Amount (INR):</label>
+            <input type="number" id="fee_amount" name="fee_amount" required>
+            <br>
+            <label for="payment_method">Payment Method:</label>
+            <select id="payment_method" name="payment_method">
+                <option value="credit_card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank_transfer">Bank Transfer</option>
+                <!-- Add more options here -->
+            </select>
+            <br>
+            <input type="submit" value="Proceed to Payment">
+        </form>
+    </div>
+</body>
+</html>

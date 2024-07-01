@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Gallery</title>
+    <link rel="icon" href="Image/logo_title.png" type="image/icon type">
+
+    <style>
+        /* Add your CSS styles here */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #fff;
+            transition: transform 0.2s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .heading {
+            background: #1eee74;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>College Gallery</h1>
+    </div>
+
+    <div class="gallery">
+        <img src="Image/gallery-1.jpg" alt="Image 1">
+        <img src="Image/gallery-2.jpg" alt="Image 2">
+        <img src="Image/gallery-3.jpg" alt="Image 3">
+        <img src="Image/gallery-5.jpg" alt="Image 4">
+        <img src="Image/gallery-6.jpg" alt="Image 4">
+        <img src="Image/gallery-7.jpg" alt="Image 4">
+        <img src="Image/gallery-8.jpg" alt="Image 4">
+        <!-- Add more images as needed -->
+    </div>
+</body>
+
+</html>
