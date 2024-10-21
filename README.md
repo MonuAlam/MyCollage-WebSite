@@ -1,6 +1,6 @@
 <h1>MyCollege </h1>
 
-<h2>Overview</h2>
+<h2>Overview </h2>
 MyCollege is a comprehensive web application designed to showcase all the essential information about a college. 
 The project provides details about the college's facilities, departments, admission process, events, and more. 
 It is built using HTML, CSS, and JavaScript to deliver a seamless and interactive experience.
