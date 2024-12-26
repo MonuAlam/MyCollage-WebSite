@@ -17,6 +17,7 @@ CSS3: For styling the website and ensuring a responsive layout.
 
 ![image](https://github.com/user-attachments/assets/985e7857-b4ad-4bdb-a97b-cc121ac11fc7)
 
+
 ![image](https://github.com/user-attachments/assets/2d89feab-f2fa-4382-82f2-1bc0f7993ae7)
 
 ![image](https://github.com/user-attachments/assets/e0cbf100-291e-410a-9c76-8f25e5b463dd)
